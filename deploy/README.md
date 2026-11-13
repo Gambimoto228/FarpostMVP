@@ -14,8 +14,8 @@
 
 ```bash
 # на сервере
-git clone https://github.com/BuybackLFG/domdose.git
-cd domdose
+git clone https://github.com/Gambimoto228/FarpostMVP.git
+cd FarpostMVP
 
 cp .env.prod.example .env
 $EDITOR .env            # DOMAIN, ACME_EMAIL, CORS_ORIGINS
