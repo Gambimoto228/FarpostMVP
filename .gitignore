@@ -1,35 +1,25 @@
-# Python
+# зависимости
+node_modules/
+.venv/
 __pycache__/
 *.py[cod]
-*.pyo
 .pytest_cache/
 .ruff_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-.venv/
-venv/
-
-# Node / frontend
-node_modules/
 dist/
-coverage/
+build/
+*.egg-info/
 *.tsbuildinfo
 
-# Local configuration and secrets
+# локальные данные и секреты
 .env
-.env.*
-!.env.example
-
-# Runtime data and local artifacts
-.artifacts/
-logs/
-*.log
-*.sqlite
+*.db
 *.sqlite3
-
-# Editors and OS
-.idea/
-.vscode/
 .DS_Store
-Thumbs.db
+
+# сгенерированное типами не считаем — api.ts коммитим намеренно
+
+# локальное окружение самостоятельной библиотеки
+.local/
+.dsh/
+pip-build-env-*/
+pip-build-tracker-*/
